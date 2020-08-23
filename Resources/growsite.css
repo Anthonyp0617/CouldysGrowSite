@@ -1,0 +1,76 @@
+.banner {
+    background-color: darkslateblue;
+    text-align: center;
+    color: antiquewhite;
+    padding-top: 50px;
+}
+
+.page {
+    background-color: rgb(131, 135, 126);
+    text-align: center;
+}
+
+.sechead {
+    font-weight: 100px;
+}
+
+.gallerypic {
+    height: 200px;
+    width: 200px;
+}
+
+.navlist {
+    background-color: rgb(48, 154, 136);
+    overflow: hidden;
+}
+
+.navlist a {
+    float: left;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(135, 6, 6);
+    padding: 14px 16px;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navlist a:hover {
+    background-color: white;
+}
+
+.strainstyle h1 {
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: left;
+    margin-left: 50px;
+}
+
+#straintitle {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: blanchedalmond;
+}
+
+.strainfacts {
+    text-align: left;
+}
+
+.strainstyle h2 {
+    margin-left: 100px;
+}
+
+.strainfacts p {
+    margin-left: 150px;
+    max-width: 700px;
+    overflow: auto;
+    color: blanchedalmond;
+}
+
+.strainphoto {
+    margin-left: 100px;
+    height: 250px;
+    width: 200px;
+}
