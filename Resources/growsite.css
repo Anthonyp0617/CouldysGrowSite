@@ -1,142 +1,152 @@
-    /* main page styling */
-    
-    .banner {
-        background-color: darkslateblue;
-        text-align: center;
-        color: antiquewhite;
-        padding-top: 50px;
-    }
-    
-    .page {
-        background-color: rgb(131, 135, 126);
-        text-align: center;
-        z-index: 3;
-    }
-    /*-Gallery page styling->*/
-    
-    .sechead {
-        font-weight: 100px;
-        text-align: left;
-        margin-left: 75px;
-    }
-    
-    .gallerypic {
-        height: 200px;
-        width: 200px;
-    }
-    
-    #gallerynotes {
-        max-width: 500px;
-        overflow: auto;
-    }
-    
-    #gallerytitle {
-        position: relative;
-        right: 25px;
-    }
-    
-    #vitals {
-        float: right;
-        position: relative;
-        right: 300px;
-        bottom: 15px;
-        background-color: rgb(23, 91, 23, 0.50);
-        color: blanchedalmond;
-        padding: 25px 25px 10px 25px;
-    }
-    /* strain info styling */
-    
-    .strainstyle h1 {
-        font-weight: bold;
-        font-size: 30px;
-        text-decoration: underline;
-        text-align: left;
-        margin-left: 50px;
-    }
-    
-    #straintitle {
-        font-size: 40px;
-        text-transform: uppercase;
-        font-weight: bolder;
-        color: blanchedalmond;
-    }
-    
-    .strainfacts {
-        text-align: left;
-        background: rgb(43, 41, 41, 0.5);
-    }
-    
-    .strainstyle h2 {
-        margin-left: 100px;
-        color: blanchedalmond;
-    }
-    
-    .strainfacts p {
-        margin-left: 150px;
-        max-width: 700px;
-        overflow: auto;
-        color: blanchedalmond;
-        z-index: 1;
-    }
-    
-    .strainphoto {
-        float: right;
-        margin-right: 300px;
-        height: 350px;
-        width: 300px;
-        overflow: hidden;
-    }
-    /* dev map styling*/
-    
-    #disclaimer {
-        background: red;
-        font-size: large;
-        float: right;
-        position: relative;
-        right: 500px;
-        max-width: 350px;
-    }
-    
-    .devmap li {
-        position: relative;
-        left: 150px;
-        text-align: left;
-        font-size: larger;
-    }
-    /* nav bar styling*/
-    
-    .navlist {
-        background-color: rgb(48, 154, 136);
-        overflow: hidden;
-    }
-    
-    .navlist a {
-        float: left;
-        text-align: center;
-        font-size: 24px;
-        color: rgb(135, 6, 6);
-        padding: 14px 16px;
-        list-style-type: none;
-        text-decoration: none;
-        font-weight: bold;
-        display: fixed;
-    }
-    
-    .navlist a:hover {
-        background-color: white;
-    }
-    /*Products style sheet*/
-    
-    .prodlist {
-        float: left;
-        text-decoration: none;
-    }
-    
-    .prodlist li {
-        text-decoration: none;
-    }
-    
-    #vipar300 {
-        height: 400px;
-        width: 400px;
-    }
+  /* main page styling */
+  
+  html {
+      font-size: 16px;
+  }
+  
+  .banner {
+      background-color: darkslateblue;
+      text-align: center;
+      color: antiquewhite;
+      padding-top: 3.125rem;
+  }
+  
+  .page {
+      background-color: rgb(131, 135, 126);
+      text-align: center;
+      z-index: 3;
+  }
+  /*-Gallery page styling->*/
+  
+  .sechead {
+      font-weight: 6.25rem;
+      text-align: left;
+      margin-left: 4.6875rem;
+  }
+  
+  .gallerypic {
+      height: 12.50rem;
+      width: 12.50rem;
+  }
+  
+  #gallerynotes {
+      max-width: 31.25rem;
+      overflow: auto;
+  }
+  
+  #gallerytitle {
+      position: relative;
+      right: 1.5625rem;
+  }
+  
+  #vitals {
+      background-color: rgb(23, 91, 23, 0.50);
+      color: blanchedalmond;
+      max-width: 30%;
+  }
+  /* strain info styling */
+  
+  .strainstyle h1 {
+      font-weight: bold;
+      font-size: 1.875rem;
+      text-decoration: underline;
+      text-align: left;
+      margin-left: 3.125rem;
+  }
+  
+  #straintitle {
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      font-weight: bolder;
+      color: blanchedalmond;
+  }
+  
+  .strainfacts {
+      background: rgb(43, 41, 41, 0.5);
+  }
+  
+  .strainstyle h2 {
+      margin-left: 6.25rem;
+      color: blanchedalmond;
+  }
+  
+  .strainfacts p {
+      display: flex;
+      color: blanchedalmond;
+      z-index: 1;
+  }
+  
+  .strainphoto {
+      height: 21.875rem;
+      width: 18.75rem;
+  }
+  /* dev map styling*/
+  
+  #disclaimer {
+      display: flex;
+      background: red;
+      font-size: large;
+      max-height: 25%;
+  }
+  
+  .devmap li {
+      position: ;
+      left: 9.375rem;
+      text-align: left;
+      font-size: larger;
+  }
+  /* nav bar styling*/
+  
+  .navlist {
+      background-color: rgb(48, 154, 136);
+      overflow: hidden;
+  }
+  
+  .navlist a {
+      float: left;
+      text-align: center;
+      font-size: 1.5rem;
+      color: rgb(135, 6, 6);
+      padding: 0.875rem 1.5rem;
+      list-style-type: none;
+      text-decoration: none;
+      font-weight: bold;
+      display: fixed;
+  }
+  
+  .navlist a:hover {
+      background-color: white;
+  }
+  /*Products style sheet*/
+  
+  .prodlist {
+      float: left;
+      text-decoration: none;
+  }
+  
+  .prodlist li {
+      text-decoration: none;
+  }
+  
+  #vipar300 {
+      height: 25rem;
+      width: 25rem;
+  }
+  /* mobile device rules */
+  
+  @viewport {
+      width: device-width;
+      zoom: 1.0;
+  }
+  
+  @-ms-viewport {
+      width: device-width;
+  }
+  
+  @-webkit-viewport {
+      width: device-width;
+  }
+  
+  @-moz-viewport {
+      width: device-width;
+  }
